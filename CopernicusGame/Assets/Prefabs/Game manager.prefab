@@ -1,0 +1,284 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7437350021614915444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7437350021614915450}
+  - component: {fileID: 7437350021614915451}
+  - component: {fileID: 2092897304}
+  - component: {fileID: 6966772451201446824}
+  - component: {fileID: 686602074114759341}
+  - component: {fileID: 1392030293416420260}
+  m_Layer: 0
+  m_Name: Game manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7437350021614915450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437350021614915444}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.8556012, y: 1.7559497, z: -3.4667969}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7437350021614915451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437350021614915444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51e275fab1a6a7040818fea743bda991, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Items: []
+  EquippedItems: []
+--- !u!114 &2092897304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437350021614915444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af499d8961e3a4742a0fb374f3970cb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6966772451201446824
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437350021614915444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5cccdb4e0f429b40a7c46487a4bbd73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BlackPanelAnimator: {fileID: 0}
+--- !u!114 &686602074114759341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437350021614915444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff2a68bd799051c43bb6c4bd99b92bd6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Name: Attack
+    Clip: {fileID: 8300000, guid: 6d04d2c63c1116042b3ef11d4ca81f9c, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: BossDeath
+    Clip: {fileID: 8300000, guid: f3d9584a30c12fe4baa8de69999d3796, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: CoinCollect
+    Clip: {fileID: 8300000, guid: 740dc4a76b36abe449277a6aabc4e64a, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: EnemyDeath
+    Clip: {fileID: 8300000, guid: 1e7fa51cac11937429936a5f8364393a, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: EquipmentClose
+    Clip: {fileID: 8300000, guid: 16d66eaf0e4309a498d1d834747fbd7f, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: EquipmentOpen
+    Clip: {fileID: 8300000, guid: 07d9547ee01e3cd47bb9cd1a37d361e1, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Footstep1
+    Clip: {fileID: 8300000, guid: 3b6e0673de10e6346b75653aaa5ab4e5, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Footstep2
+    Clip: {fileID: 8300000, guid: a2f30f3055a75d14d815aed7fbd548ab, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Footstep3
+    Clip: {fileID: 8300000, guid: 53cbf3c406d1b574ba7f151c907ffaa9, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: HealthCollect
+    Clip: {fileID: 8300000, guid: c83d39d81cf6a8e4883eedb964995d07, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Hit1
+    Clip: {fileID: 8300000, guid: 593421b214dd69e4a830e28ca1515716, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Hit2
+    Clip: {fileID: 8300000, guid: e535ec7c581ef90489d03bafc1d532dd, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Hit3
+    Clip: {fileID: 8300000, guid: 326e4f17bc49f7d4694d39edbdb43137, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: ItemCollect
+    Clip: {fileID: 8300000, guid: e20cd7c7f004b984d9e9d5225ba7b67e, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Jump
+    Clip: {fileID: 8300000, guid: 2b4a14355afcbac4396ee7dc420bfbee, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: PlayerDamage
+    Clip: {fileID: 8300000, guid: 4f041a8abe4ad284ca3ffd6e4ae9a7fb, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 0.5
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: PlayerDeath
+    Clip: {fileID: 8300000, guid: 2e88bd3c4333d484fbfd1f48ced5ef26, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: UICheck
+    Clip: {fileID: 8300000, guid: 4b3ec2611036fcf4490c15711177fc3c, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: UIHover
+    Clip: {fileID: 8300000, guid: bdaf5fb7938c1fd4ebc36182a0fcff1c, type: 3}
+    AudioMixerGroup: {fileID: -4168207258052795225, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: MainMenu
+    Clip: {fileID: 8300000, guid: 5b7ebf8b779293241941af268f513614, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 0.5
+    IsLooping: 1
+    Source: {fileID: 0}
+  - Name: Torun
+    Clip: {fileID: 8300000, guid: d99596eff76db8048b3b263bc181b2ce, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 0.6
+    IsLooping: 1
+    Source: {fileID: 0}
+  - Name: Torun_cutscene
+    Clip: {fileID: 8300000, guid: 177868d1d7b87c94e82b16e94af545c6, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Krakow
+    Clip: {fileID: 8300000, guid: 2a029e914579bf5438f35cb5f1592cf7, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 1
+    Source: {fileID: 0}
+  - Name: Krakow_cutscene
+    Clip: {fileID: 8300000, guid: c4cf6d42ad9686b41bc8b728c04fa06e, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Wlochy
+    Clip: {fileID: 8300000, guid: d63d77c7011ae154a9dde6a8dfa88fed, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 1
+    Source: {fileID: 0}
+  - Name: Wlochy_cutscene
+    Clip: {fileID: 8300000, guid: 0855a5b05b8c4df4c8f6aa5b7d188930, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Warmia
+    Clip: {fileID: 8300000, guid: f44cdba6f0c66a84099b0ef28286af54, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 1
+    Source: {fileID: 0}
+  - Name: Warmia_cutscene
+    Clip: {fileID: 8300000, guid: 36d4aa572e8e6a34faba174874399541, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 0
+    Source: {fileID: 0}
+  - Name: Warmia_bossfight
+    Clip: {fileID: 8300000, guid: 87d2907f0ddb89a4ba1544e6df383486, type: 3}
+    AudioMixerGroup: {fileID: -4992983224384546916, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+    Volume: 1
+    IsLooping: 1
+    Source: {fileID: 0}
+  LevelMusicName: 
+--- !u!114 &1392030293416420260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7437350021614915444}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d2c5741793887d41a343f771209b9b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  ItemDatabase:
+  - {fileID: 11400000, guid: b46c5d9ff7d4dac488ceb25a192332ad, type: 2}
+  - {fileID: 11400000, guid: ed9816a8a0f906c468aeb8cc053eaa39, type: 2}
+  - {fileID: 11400000, guid: d10419963cf6ff04ea562abd28b2b884, type: 2}
+  - {fileID: 11400000, guid: cc0172658e385934ebb93237ae4525b9, type: 2}
+  AudioMixer: {fileID: 24100000, guid: 5cba292694801cd4096264054b57cad4, type: 2}
+  Subtitles: {fileID: 0}

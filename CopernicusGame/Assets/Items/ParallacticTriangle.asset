@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65d5bf54d1d2efc428bb843464585f2c, type: 3}
+  m_Name: ParallacticTriangle
+  m_EditorClassIdentifier: 
+  ID: 3
+  Name: "Tr\xF3jk\u0105t paralaktyczny"
+  Description: "Zwi\u0119ksza wysoko\u015B\u0107 skoku."
+  Icon: {fileID: 21300000, guid: 6316cf05a8127384eaa396fa50d62582, type: 3}
+  AddedJumpForce: 35

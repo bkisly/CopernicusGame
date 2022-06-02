@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8678354992147350635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8678354992147350634}
+  - component: {fileID: 8678354992147350639}
+  - component: {fileID: 8678354992147350632}
+  - component: {fileID: 8678354992147350633}
+  - component: {fileID: 8678354992147350638}
+  m_Layer: 5
+  m_Name: Subtitles
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &8678354992147350634
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678354992147350635}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: -0, y: -322}
+  m_SizeDelta: {x: -150.74023, y: 87.726654}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &8678354992147350639
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678354992147350635}
+  m_CullTransparentMesh: 0
+--- !u!114 &8678354992147350632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678354992147350635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 12800000, guid: c84a2cad5fbc4cb4e8146f97b502af56, type: 3}
+    m_FontSize: 28
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 2
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text
+    Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample
+    Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text
+    Sample Text Sample Text Sample Text Sample Text Sample Text Sample Text Sample
+    Text Sample Text Sample Text Sample Text Sample Text Sample Text '
+--- !u!114 &8678354992147350633
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678354992147350635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 1}
+  m_EffectDistance: {x: 2.5, y: -2.5}
+  m_UseGraphicAlpha: 1
+--- !u!114 &8678354992147350638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8678354992147350635}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 68ea3da620525d64d8a2cbdc5addc332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Subtitles:
+  - StartTime: 0.5
+    EndTime: 3.6
+    Text: "Miko\u0142aj Kopernik, syn Miko\u0142aja i Barbary"
+  - StartTime: 3.7
+    EndTime: 10
+    Text: "urodzi\u0142 si\u0119 19 lutego 1473 roku w Toruniu przy ulicy \u015Awi\u0119tej
+      Anny."
+  - StartTime: 10.1
+    EndTime: 18.5
+    Text: "Dzieci\u0144stwo przysz\u0142ego astronoma by\u0142o trudne - najwy\u017Csz\u0105
+      warto\u015Bci\u0105 w jego domu by\u0142o pos\u0142usze\u0144stwo, a niesubordynacja
+      karana by\u0142a ciele\u015Bnie."
+  - StartTime: 18.6
+    EndTime: 26
+    Text: "Po \u015Bmierci ojca, razem ze swoim bratem, przeszed\u0142 pod opiek\u0119
+      swojego wuja - biskupa \u0141ukasza Watzenrodego,"
+  - StartTime: 26.1
+    EndTime: 29.5
+    Text: "kt\xF3ry postanowi\u0142 nakierowa\u0107 ch\u0142opc\xF3w na duchown\u0105
+      drog\u0119."
+  - StartTime: 29.6
+    EndTime: 36
+    Text: "W\xF3wczas Miko\u0142aj pobiera\u0142 nauki w zakresie matematyki, astronomii
+      i \u0142aciny w Ko\u015Bciele \u015B\u015B. Jan\xF3w."
+  - StartTime: 36.1
+    EndTime: 44
+    Text: "W 1491 roku astronom rozpocz\u0105\u0142 studia wy\u017Csze, dzi\u0119ki
+      protekcji uzyskanej od biskupa \u0141ukasza."
+  SubtitlesText: {fileID: 8678354992147350632}
